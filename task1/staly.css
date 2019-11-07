@@ -1,0 +1,11 @@
+.wrap{
+	text-align: center;
+}
+.en{
+	display: inline-block;
+	width: 30%;
+	padding-top: 30%;
+	margin: 1%;
+	border-radius:10%;
+	background:rgb(255,166,0);
+}
