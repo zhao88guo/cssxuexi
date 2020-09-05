@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 63%;
+	background: #fff;
+}
+/*头部开始*/
+header{
+	width: 100vw;
+	height: 3.6em;
+	background: #5fc0cd;
+	position: fixed;
+	z-index: 1;
+}
+header .fh{
+	width: 1.4em;
+	height: 1.4em;
+	background: url(images/ztl.png);
+	background-size: 100% 100%;
+	position: fixed;
+	left: 1.4em;
+	top: 1em;
+}
+header .zy{
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 1em;
+}
+/* 头部结束 */
+/* 主体开始 */
+main{
+	position: relative;
+	top: 3.6em;
+	height: 14.5em ;
+	background: url(images/xx-bj_02.png) no-repeat;
+	background-size: 100% 100%;
+}
+main .pic{
+	width: 7.5em;
+	height: 7.5em;
+	background: url(images/task5-1_03.png);
+	background-size: 100%;
+	position: absolute;
+	top: 3.5em;
+	left: 1.3em;
+}
+main .xx{
+	position: absolute;
+	top: 5em;
+	left: 10.6em;
+	color: #FFFFFF;
+}
+main .xx span{
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background: url(images/xx-map_03.png);
+	background-size: 100% 100%;
+	margin: 0 0.3em 0 0;
+	position: relative;
+	top: 0.2em;
+}
+main .jn div{
+	height: 4.4em;
+	line-height: 4.4em;
+	text-indent: 2.7em;
+	font-weight: 600;
+}
+main .jn1,.jn2,.jn3,.jn4,.jn5,.jn6{
+	position: relative;
+	top: 14.5em;
+}
+main .jn2 span{
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	background: url(images/xq-wx_03.png);
+	background-size: 100%;
+}
+main .jn3 span{
+	display: inline-block;
+}
+main .jn4 span{
+	display: inline-block;
+}
+main .jn5 span{
+	display: inline-block;
+	color: red;
+}
+main .zwjs{
+	position: relative;
+	top: 16em;
+	font-weight: 600;
+}
+main .p1{
+	position: absolute;
+	margin-bottom: 0.8em;
+	bottom: 50%;
+	left: 2.7em;
+}
+main .p2{
+	position: relative;
+	top: -1.3em;
+	left: 10em;
+	margin: 1em 12em 0 0;
+}
+main div hr{
+	margin-left: 2em;
+	border:0.1em solid #ccc;
+} 
+main .jn #h1{
+	margin-left: 0em;
+}
+/* 尾部开始 */
+footer{
+	position: fixed;
+	bottom: 1em;
+}
+footer input{
+	height: 4em;
+	width: 45vw;
+	margin: 0 1vw 0 2.5vw;
+	border: #5fc0cd 2px solid;
+	border-radius: 1em;
+}
+footer #btn1{
+	color: #5FC0CD;
+}
+footer #btn2{
+	background: #5fc0cd;
+	color: #FFFFFF;
+}
+/* 尾部结束 */
