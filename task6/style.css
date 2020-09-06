@@ -1,0 +1,167 @@
+*{padding: 0;margin: 0;}
+body{font-size: 63%; width: 100vw;}
+/* 头部开始 */
+header{
+	height: 4em;
+	background: #5FC0CD;
+	position: fixed;
+	width: 100vw;
+	text-align: center;
+	padding-top: 0.5em;
+	z-index: 1;
+}
+header [type=button]{
+	width: 6.3em;
+	height: 3.1em;
+	outline: none;
+	border: none;
+	border-radius: 0.4em;
+}
+header .ybtn{
+	position: relative;
+	left: 1em;
+	color: #5FC0CD;
+	font-weight: 600;
+	background: #FFFFFF;
+}
+header .zbtn{
+	position: relative;
+	left: 1.5em;
+	color: #FFFFFF;
+	font-weight: 600;
+	background: #55a8b3;
+}
+header img{
+	float: right;
+	margin-top:0.8em;
+	padding-right: 1em;
+}
+/* 头部结束 */
+/* 主体开始 */
+main{position: relative;}
+main .nav{
+	position: absolute;
+	text-align: center;
+	padding: 0;
+	top: 4em;
+	color: #aaa;
+}
+main .nav p{
+	width: 33.3vw;
+	height: 3.6em;
+	line-height: 3.6em;
+	float: left;
+	border-width: 0 0.1em 0.1em 0;
+	border-color: #eee;
+	border-style: solid;
+	margin: 0;
+}
+main .nav span{
+	display: inline-block;
+	width: 0.5em;
+	height: 0.3em;
+	float: right;
+	background:url(images/task5-2_03.png);
+	background-size: 100%;
+	position: relative;
+	right: 0.5em;
+	top: 1.6em;
+}
+main .zpxx div{
+	position: relative;
+	top: 9.5em;
+	height: 8em;
+	border-width: 0 0 0.1em 0;
+	border-style: solid;
+	border-color: #EEEEEE;
+	font-size: 0.8em;
+}
+main .zpxx .p1{
+	position: absolute;
+	top: 1.3em;
+	left: 3em;
+	color: #aaa;
+}
+main .zpxx .p1 span{
+	position: absolute;
+	top: 0.3em;
+	left: -1.7em;
+	width: 1.1em;
+	height: 1.1em;
+	background: url(images/task5-2_02_03.png);
+}
+main .zpxx .p2{
+	position: absolute;
+	top: 3.5em;
+	left: 3em;
+	letter-spacing: 0.1em;
+}
+main .zpxx .p3{
+	float: right;
+	position: relative;
+	top: 3.5em;
+	right: 3.2em;
+	color: #FF0000;
+}
+main .zpxx .p4{
+	position: absolute;
+	top: 5.5em;
+	left: 3em;
+	color: #aaa;
+}
+main .zpxx .p4 span{
+	position: absolute;
+	top: 0.2em;
+	left: -1.7em;
+	width: 1.1em;
+	height: 1.1em;
+	background: url(images/task5-2_06.png);
+	background-size: 100%;
+}
+/* 主体结束 */
+/* 尾部开始 */
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	height: 4.4em;
+	background: #f8fafb;
+	text-align: center;
+}
+footer .p5{
+	float: left;
+	position: relative;
+	top: 2.5em;
+	left: 3.9em;
+	color: #55A8B3;
+}
+footer .p5 span{
+	position: absolute;
+	top: -2.2em;
+	left: -0.1em;
+	width: 2.3em;
+	height: 2em;
+	background: url(images/task5-2_09.jpg);
+	background-size: 100%;
+}
+footer .p6{
+	float: right;
+	position: relative;
+	right: 3.9em;
+	top: 2.5em;
+}
+footer .p6 span{
+	position: absolute;
+	top: -2em;
+	left: 0.1em;
+	width: 1.8em;
+	height: 1.9em;
+	background: url(images/task5-2_12.png);
+	background-size: 100% 100%;
+}
+footer img{
+	width: 4.2em;
+	height: 4.2em;
+	padding-top: 0.2em;
+}
+/* 尾部结束 */
