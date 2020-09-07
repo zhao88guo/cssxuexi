@@ -72,6 +72,9 @@ main .jn1,.jn2,.jn3,.jn4,.jn5,.jn6{
 	position: relative;
 	top: 14.5em;
 }
+main .jn3,.jn4,.jn5,.jn6{
+	color: #AAAAAA;
+}
 main .jn2 span{
 	display: inline-block;
 	width: 1em;
@@ -81,9 +84,11 @@ main .jn2 span{
 }
 main .jn3 span{
 	display: inline-block;
+	color: #000;
 }
 main .jn4 span{
 	display: inline-block;
+	color: #000;
 }
 main .jn5 span{
 	display: inline-block;
@@ -99,6 +104,7 @@ main .p1{
 	margin-bottom: 0.8em;
 	bottom: 50%;
 	left: 2.7em;
+	color: #AAAAAA;
 }
 main .p2{
 	position: relative;
@@ -109,27 +115,40 @@ main .p2{
 main div hr{
 	margin-left: 2em;
 	border:0.1em solid #ccc;
+	background: #CCCCCC;
 } 
 main .jn #h1{
 	margin-left: 0em;
 }
 /* 尾部开始 */
 footer{
+	display: flex;
+	justify-content: space-evenly;
 	position: fixed;
-	bottom: 1em;
+	bottom: 0;
+	padding: 1em 0 2em 0;
+	width: 100%;
+	background: #fff;
 }
-footer input{
-	height: 4em;
+footer a{
+	padding: 1em 0;
+	text-decoration: none;
+	text-align: center;
+}
+footer #a1{
 	width: 45vw;
-	margin: 0 1vw 0 2.5vw;
-	border: #5fc0cd 2px solid;
-	border-radius: 1em;
-}
-footer #btn1{
+	font-size: 1.3em;
 	color: #5FC0CD;
+	background: #FFFFFF;
+	border: 2px solid #5FC0CD;
+	border-radius: 5%;
 }
-footer #btn2{
-	background: #5fc0cd;
-	color: #FFFFFF;
+footer #a2{
+	width: 45vw;
+	font-size: 1.3em;
+	color: #ffffff;
+	border: 2px solid #5FC0CD;
+	border-radius: 5%;
+	background: #5FC0CD;
 }
 /* 尾部结束 */
