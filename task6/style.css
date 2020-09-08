@@ -7,12 +7,12 @@ header{
 	position: fixed;
 	width: 100vw;
 	text-align: center;
-	padding-top: 0.5em;
+	padding-top: 0.7em;
 	z-index: 1;
 }
 header [type=button]{
 	width: 6.3em;
-	height: 3.1em;
+	height: 2.5em;
 	outline: none;
 	border: none;
 	border-radius: 0.4em;
@@ -33,39 +33,70 @@ header .zbtn{
 }
 header img{
 	float: right;
-	margin-top:0.8em;
-	padding-right: 1em;
+	margin-top:0.5em;
+	padding-right: 1.2em;
 }
 /* 头部结束 */
 /* 主体开始 */
-main{position: relative;}
+main{
+	margin-bottom: 13em;
+}
 main .nav{
-	position: absolute;
-	text-align: center;
-	padding: 0;
+	position: fixed;
+	z-index: 1;
 	top: 4em;
 	color: #aaa;
+	background: #FFFFFF;
 }
-main .nav p{
+main .nav div{
+	float: left;
 	width: 33.3vw;
 	height: 3.6em;
 	line-height: 3.6em;
-	float: left;
 	border-width: 0 0.1em 0.1em 0;
-	border-color: #eee;
 	border-style: solid;
-	margin: 0;
+	border-color: #ccc;
+	text-align: center;
+}
+main .nav ul{
+	position: absolute;
+	top: 3.6em;
+	width: 33.3vw;
+}
+main .nav ul li{
+	background: #FFFFFF;
+	list-style-type: none;
+	border-width: 0 0.1em 0.1em 0.1em;
+	border-style: solid;
+	border-color: #ccc;
 }
 main .nav span{
-	display: inline-block;
-	width: 0.5em;
-	height: 0.3em;
-	float: right;
-	background:url(images/task5-2_03.png);
-	background-size: 100%;
 	position: relative;
-	right: 0.5em;
 	top: 1.6em;
+	float: right;
+	right: 0.5em;
+	width: 0.7em;
+	height: 0.5em;
+	background: url(images/task5-2_03_03.png);
+	background-size: 100% 100%;
+}
+main .box1 ul{
+	display: none;
+}
+main .box1:hover ul{
+	display: block;
+}
+main .box2 ul{
+	display: none;
+}
+main .box2:hover ul{
+	display: block;
+}
+main .box3 ul{
+	display: none;
+}
+main .box3:hover ul{
+	display: block;
 }
 main .zpxx div{
 	position: relative;
@@ -103,6 +134,15 @@ main .zpxx .p3{
 	right: 3.2em;
 	color: #FF0000;
 }
+main .zpxx .p3 span{
+	position: absolute;
+	left: 6em;
+	width: 1em;
+	height: 1.6em;
+	background: url(images/task5-2-3_03.png);
+	background-size: 100% 100%;
+	
+}
 main .zpxx .p4{
 	position: absolute;
 	top: 5.5em;
@@ -137,12 +177,12 @@ footer .p5{
 }
 footer .p5 span{
 	position: absolute;
-	top: -2.2em;
-	left: -0.1em;
-	width: 2.3em;
-	height: 2em;
-	background: url(images/task5-2_09.jpg);
-	background-size: 100%;
+	top: -2em;
+	left: 0em;
+	width: 1.9em;
+	height:1.9em;
+	background: url(images/task5-4_09.png);
+	background-size: 100% 100%;
 }
 footer .p6{
 	float: right;
@@ -155,13 +195,13 @@ footer .p6 span{
 	top: -2em;
 	left: 0.1em;
 	width: 1.8em;
-	height: 1.9em;
-	background: url(images/task5-2_12.png);
+	height: 1.8em;
+	background: url(images/task5-4_06.png);
 	background-size: 100% 100%;
 }
 footer img{
-	width: 4.2em;
-	height: 4.2em;
-	padding-top: 0.2em;
+	width: 3.8em;
+	height: 3.8em;
+	margin-top: 0.3em;
 }
 /* 尾部结束 */

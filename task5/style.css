@@ -36,6 +36,7 @@ main{
 	height: 14.5em ;
 	background: url(images/xx-bj_02.png) no-repeat;
 	background-size: 100% 100%;
+	margin-bottom: 10em;
 }
 main .pic{
 	width: 7.5em;
@@ -98,6 +99,7 @@ main .zwjs{
 	position: relative;
 	top: 16em;
 	font-weight: 600;
+	margin-bottom: 8em;
 }
 main .p1{
 	position: absolute;
@@ -114,12 +116,16 @@ main .p2{
 }
 main div hr{
 	margin-left: 2em;
-	border:0.1em solid #ccc;
 	background: #CCCCCC;
 } 
 main .jn #h1{
 	margin-left: 0em;
 }
+/* main .kb{
+	position: relative;
+	top: 14em;
+	height: 10em;
+} */
 /* 尾部开始 */
 footer{
 	display: flex;
@@ -129,6 +135,7 @@ footer{
 	padding: 1em 0 2em 0;
 	width: 100%;
 	background: #fff;
+	/* display: none; */
 }
 footer a{
 	padding: 1em 0;

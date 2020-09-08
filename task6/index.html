@@ -17,10 +17,31 @@
 		</header>
 		<main>
 			<div class="nav">
-				<p>所在地<span></span></p>
-				<p>食宿<span></span></p>
-				<p>病人情况<span></span></p>
-			</div>
+				<div class="box1">所在地
+					<span></span>
+					<ul>
+						<li>北京</li>
+						<li>通州</li>
+						<li>果园</li>
+					</ul>
+				</div>
+				<div class="box2">食宿
+					<span></span>
+					<ul>
+						<li>北京</li>
+						<li>通州</li>
+						<li>果园</li>
+					</ul>
+				</div>
+				<div class="box3">病人情况
+					<span></span>
+					<ul>
+						<li>北京</li>
+						<li>通州</li>
+						<li>果园</li>
+					</ul>
+				</div>
+			</div> 
 			<div class="zpxx">
 				<div>
 					<p class="p1"><span></span>服务日期</p>
@@ -62,8 +83,32 @@
 		</main>
 		<footer>
 			<p class="p5"><span></span>首页</p>
-			<img src="images/task5-2_06.jpg" >
+			<img src="images/task5-4_03.png" >
 			<p class="p6"><span></span>我的</p>
 		</footer>
 	</body>
+	<script type="text/javascript">
+		window.onresize = function () {
+		 
+		var Width = window.innerWidth//浏览器窗口的内部宽度（包括滚动条）
+		 
+		|| document.documentElement.clientWidth
+		 
+		|| document.body.clientWidth;
+		 
+		var Height = window.innerHeight//浏览器窗口的内部高度（包括滚动条）
+		 
+		|| document.documentElement.clientWidth
+		 
+		|| document.body.clientHeight;
+		 
+		//console.log(Width, Height);
+		//alert($('main .zpxx .p1,.p2,.p4').html('......'));
+			if(Width<='280'){
+				$('main .zpxx .p2').html('2015-7-5至2015-7-...');
+			}else{
+				$('main .zpxx .p2').html('2015-7-5至2015-7-12');
+			}
+		}
+	</script>
 </html>
