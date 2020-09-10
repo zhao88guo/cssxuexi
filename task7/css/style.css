@@ -1,0 +1,121 @@
+html{font-size: 62.5%;background-color: #f0f0f0;}
+body{width: 100vw;}
+*{padding: 0;margin: 0;}
+/* 头部 */
+header{
+	position: fixed;
+	width: 100vw;
+	height: 4.4rem;
+	background: #29bde0;
+	z-index: 1;
+}
+header p{
+	width: 1.7rem;
+	height: 1.4rem;
+	background: url(../images/task7-01_04_03.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 2rem;
+	left: 1.1rem;
+}
+/* 头部 */
+/* 内容开始 */
+main{
+	position: relative;
+	top: 4.4rem;
+	background-color: #f0f0f0;
+	}
+main .box1{
+	background-color: #f0f0f0;
+	width: 100vw;
+	height: 8.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .box1 p{
+	width: 100vw;
+	margin: 0 1.7rem;
+	height: 5.8rem;
+	line-height: 5rem;
+	text-align: center;
+	background: #FFFFFF;
+	font-size: 1.8rem;
+	color: #b1b1b1;
+	border: 0.15rem solid #ccc;
+	border-radius: 0.3rem;
+}
+main .box1 span{
+	position:absolute;
+	right: 2.5rem;
+	height: 2rem;
+	width: 1.2rem;
+	background: url(../images/task7-01_03.png);
+	background-size: 100% 100%;
+}
+main .box2{
+	background-color: #f0f0f0;
+	border: 0.15rem solid #ccc;
+	margin: 0 1.7rem;
+}
+main .box2 .p1{
+	background: #FFFFFF;
+	height: 4.6rem;
+	line-height: 4.6rem;
+	font-size: 1.8rem;
+	color: #fbb435;
+	text-align: center;
+	margin: 0;
+	border: 0;
+	border-bottom: 0.15rem;
+	border-style: solid;
+	border-color: #fbb435;
+}
+main .box2 .jhb{
+	height: 11rem;
+	background: #FFFFFF;
+	text-align: center;
+	padding-top: 1.6rem;
+}
+main .jhb a{
+	display: block;
+	margin: 0 2.8rem 1.1rem 2.8rem;
+	padding-top: 2.4rem;
+	height: 6.7rem;
+	background: #69d1e9;
+	color: #FFFFFF;
+	font-size: 1.8rem;
+}
+main .jhb a:hover{
+	text-decoration: none;
+}
+main .jhb span{
+	color: #959595;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+}
+main .jhb #s2{
+	position: absolute;
+	top: 27.8rem;
+	right: 2.3rem;
+	width: 1.4rem;
+	height: 2.8rem;
+	background: url(../images/task7-01_06.png);
+	background-size: 100% 100%;
+}
+main .yd{
+	background: #FFFFFF;
+	text-align: center;
+}
+main .yd span{
+	display:inline-block;
+	height: 0.9rem;
+	width: 0.9rem;
+	background: #f0f0f0;
+	border-radius: 50%;
+	margin: 0.4rem 0.1rem;
+}
+main .yd #s1{
+	background: #69d1e9;
+}
+/* 内容 结束*/
