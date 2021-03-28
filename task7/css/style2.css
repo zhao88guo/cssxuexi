@@ -10,6 +10,7 @@ header{
 	background: #29bde0;
 	text-align: center;
 	z-index: 1;
+	border-bottom: 0.1rem solid #74d4eb;
 }
 header span{
 	color: #FFFFFF;
